@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.logobar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.logobar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+}
+
+.logobar ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logobar ul li::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #FF3A1F;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.logobar ul li:hover::after {
+    width: 100%;
+}
+
+/* Reference: How To Make Website Using HTML And CSS | Website Design With HTML And CSS
+link: https://www.youtube.com/watch?v=PgAZ8KzfhO8&t=213s */
+
+.headers {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #FFF;
+}
+
+.headers h1 {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 119px;
+    margin-top: 80px;
+}
+
+.headers p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 50px;
+}
+
+button {
+    width: 180px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 100px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background: #FF3A1F;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+button:hover {
+    background: #FFF;
+    color: #FF3A1F;
+    transition: 0.3s;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+.container1 {
+    position: absolute;
+    width: 1267px;
+    height: 368px;
+    left: 230px;
+    top: 130%;
+}
+
+.container2 {
+    position: absolute;
+    width: 1267px;
+    height: 368px;
+    left: 230px;
+    top: 200%;
+}
+
+.container3 {
+    position: absolute;
+    width: 1267px;
+    height: 368px;
+    left: 230px;
+    top: 270%;
+}
+
+
+
+h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 152%;
+    letter-spacing: 0.12em;
+    color: #FF3A1F;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 152%;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+h4 {
+    padding-top: 60px;
+    padding-bottom: -20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: justify;
+    color: #000000;
+}
+
+h5 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    color: #FF3A1F;
+}
