@@ -36,7 +36,19 @@
     background-position: center;
 }
 
+.share {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
 
+.social {
+    width: 32px;
+    cursor: pointer;
+}
 
 .logobar {
     width: 85%;
@@ -107,15 +119,20 @@ link: https://www.youtube.com/watch?v=PgAZ8KzfhO8&t=213s */
     margin-top: 50px;
 }
 
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 button {
-    width: 180px;
+    width: 150px;
     padding: 10px 0;
     text-align: center;
-    margin: 100px 10px;
+    margin: 60px 10px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 19px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     background: #FF3A1F;
     color: #FFF;
     cursor: pointer;
@@ -201,3 +218,202 @@ h5 {
     text-align: center;
     color: #FF3A1F;
 }
+
+.facts1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+}
+
+.facts2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.facts3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.news {
+    width: 90%;
+    cursor: pointer;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.sourcebox {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.factcontainer {
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item:nth-of-type(2) {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FF3A1F;
+
+}
+
+.newsname {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #000000;
+}
+
+
+.item:nth-of-type(3) {
+    align-self: end;
+}
+
+.item:nth-of-type(1) {
+    width: 280px;
+    height: 300px;
+
+}
+
+.space {
+    height: 80px;
+}
+
+.space2 {
+    height: 700px;
+}
+
+.space3 {
+    height: 30px;
+}
+
+.statsbox {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.statsitem:nth-of-type(1) {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.statsitem:nth-of-type(2) {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.12em;
+
+    color: #FF3A1F;
+}
+
+.statsitem:nth-of-type(3) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 152%;
+    text-align: center;
+
+    color: #000000;
+}
+
+h6 {
+    margin-left: 20%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 49px;
+    color: #000000;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.actionbox {
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.actionitem {
+    width: 220px;
+    height: 220px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.12em;
+    color: #FF3A1F;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF3A1F;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #FF3A1F;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #D9D9D9;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FF3A1F;
+    text-decoration: none;
+  }
